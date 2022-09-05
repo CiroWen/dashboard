@@ -460,6 +460,7 @@ main .recent-orders a {
 .right .recent-updates .updates .update {
   display: grid;
   grid-template-columns: 2.6rem auto;
+  margin-bottom: 1rem;
   gap: 1rem;
 }
 
