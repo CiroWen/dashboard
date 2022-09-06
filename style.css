@@ -718,4 +718,5 @@ main .recent-orders a {
 7. gap
 8. material icon requires maintenance e.g: classname for certain icons migth change
 9. Media query to be responsive, find the correct breakpoint first, then modify the css based on it.
+10. classList.toggle() is a very handle method for switch such as dark mode
 */
