@@ -523,6 +523,10 @@ main .recent-orders a {
   gap: 0.6rem;
 }
 
+.right .sales-analytics .add-product:hover{
+  background-color: var(--color-white);
+}
+
 .right .sales-analytics .add-product div h3{
   font-weight: 800;
   font-size: 1rem;
@@ -531,6 +535,12 @@ main .recent-orders a {
 *{
   transition: none !important;
 }
+
+/* MEDIA QUERIES STARTS HERE */
+@media screen and (max-width:1200px){
+
+}
+
 
 /* 
 1. look at the overall design first 
