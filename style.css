@@ -163,6 +163,7 @@ aside .sidebar {
   height: 86vh;
   position: relative;
   top: 3rem;
+
 }
 
 aside h3 {
@@ -600,7 +601,7 @@ main .recent-orders a {
 
   aside {
     position: fixed;
-    left: 0;
+    left: -100%;
     background: var(--color-white);
     width: 18rem;
     z-index: 3;
@@ -608,8 +609,15 @@ main .recent-orders a {
     height: 100vh;
     padding-right: var(--card-padding);
     display: none;
+    animation: asideMenu 500ms ease forwards;
+    
   }
 
+  @keyframes asideMenu {
+    to{
+      left: 0;
+    }
+  }
   aside .logo {
     margin-left: 1rem;
   }
