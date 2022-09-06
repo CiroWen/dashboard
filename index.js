@@ -1,11 +1,19 @@
-const sideMenu = document.querySelector('aside')
-const menuBtn = document.querySelector('#menu-btn')
-const closeBtn = document.querySelector('#close-btn')
+const sideMenu = document.querySelector("aside");
+const menuBtn = document.querySelector("#menu-btn");
+const closeBtn = document.querySelector("#close-btn");
+const themeToggler = document.querySelector(".theme-toggler");
 
-menuBtn.addEventListener('click', () => {
-    sideMenu.style.display = 'block'
-})
+menuBtn.addEventListener("click", () => {
+  sideMenu.style.display = "block";
+});
 
-closeBtn.addEventListener('click', () => {
-    sideMenu.style.display = 'none'
-})
+closeBtn.addEventListener("click", () => {
+  sideMenu.style.display = "none";
+});
+
+themeToggler.addEventListener("click", () => {
+    document.body.classList.toggle('dark-theme-variables');
+    themeToggler.children[0].classList.toggle('active')
+    themeToggler.children[1].classList.toggle('active')
+    
+});

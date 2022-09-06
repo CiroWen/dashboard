@@ -23,6 +23,15 @@
   --padding-1: 1.2rem;
   --box-shadow: 0 2rem 3rem var(--color-light);
 }
+/* DARK THEME VARIABLES */
+.dark-theme-variables {
+  --color-background: #181a1e;
+  --color-white: #202528;
+  --color-dark: #edeffd;
+  --color-dark-variant: #a3bdcc;
+  --color-light: rgba(0, 0, 0, 0.4);
+  --box-shadow: 0 2rem 3rem var(--color-light);
+}
 
 /* clear some default setup from browser */
 * {
@@ -163,7 +172,6 @@ aside .sidebar {
   height: 86vh;
   position: relative;
   top: 3rem;
-
 }
 
 aside h3 {
@@ -414,8 +422,6 @@ main .recent-orders a {
   width: 4.2rem;
   cursor: pointer;
   border-radius: var(--border-radius-1);
-
-  
 }
 
 .right .theme-toggler span {
@@ -610,11 +616,10 @@ main .recent-orders a {
     padding-right: var(--card-padding);
     display: none;
     animation: asideMenu 500ms ease forwards;
-    
   }
 
   @keyframes asideMenu {
-    to{
+    to {
       left: 0;
     }
   }
@@ -640,9 +645,9 @@ main .recent-orders a {
     bottom: 5rem;
   }
 
-  aside .close{
-    display:inline-block;
-    cursor:pointer;
+  aside .close {
+    display: inline-block;
+    cursor: pointer;
   }
 
   main {
@@ -650,47 +655,46 @@ main .recent-orders a {
     padding: 0 1rem;
   }
 
-  main .recent-orders{
-    position:relative;
+  main .recent-orders {
+    position: relative;
     margin: 3rem 0 0 0;
     width: 100%;
   }
 
-  main .recent-orders table{
+  main .recent-orders table {
     width: 100%;
     margin: 0;
   }
 
-  .right{
+  .right {
     width: 94%;
     margin: 0 auto 4rem;
   }
 
-  .right .top{
+  .right .top {
     position: fixed;
     top: 0;
     left: 0;
-    align-items:center;
-    padding: 0 0.8rem;;
+    align-items: center;
+    padding: 0 0.8rem;
     height: 4.6rem;
     background: var(--color-white);
     width: 100%;
     z-index: 2;
-    box-shadow: 0 1rem 1rem var(--color-light)
+    box-shadow: 0 1rem 1rem var(--color-light);
   }
 
-  .right .top .theme-toggler{
+  .right .top .theme-toggler {
     width: 4.4rem;
     position: absolute;
     left: 66%;
-
   }
 
-  .right .profile .info{
+  .right .profile .info {
     display: none;
   }
 
-  .right .top button{
+  .right .top button {
     display: inline-block;
     background: transparent;
     cursor: pointer;
@@ -699,10 +703,9 @@ main .recent-orders a {
     left: 1rem;
   }
 
-  .right .top button span{
+  .right .top button span {
     font-size: 3rem;
   }
-
 }
 
 /* 
